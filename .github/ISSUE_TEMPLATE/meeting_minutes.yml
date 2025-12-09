@@ -6,6 +6,13 @@ body:
   - type: markdown
     attributes:
       value: |
+        Please fill out the meeting details below. The meeting notices will be automatically included in the issue.
+  - type: textarea
+    id: notices
+    attributes:
+      label: Meeting Notices
+      description: These notices will be included in the issue body
+      value: |
         ## Meeting Notices
         
         - FINOS **Project leads** are responsible for observing the FINOS guidelines for [running project meetings](https://community.finos.org/docs/governance/meeting-procedures/). Project maintainers can find additional resources in the [FINOS Maintainers Cheatsheet](https://community.finos.org/docs/finos-maintainers-cheatsheet).
@@ -23,18 +30,15 @@ body:
       placeholder: YYYYMMDD - time
     validations:
       required: true
-  - type: input
-    id: meeting_link
+  - type: textarea
+    id: meeting_details
     attributes:
-      label: Meeting Link
-      description: Link to join the meeting
-      placeholder: https://...
-  - type: input
-    id: register_link
-    attributes:
-      label: Register for Future Meetings
-      description: Link to register for future meetings
-      placeholder: https://...
+      label: Meeting Details
+      description: Meeting link and registration information
+      value: |
+        ## Meeting Details
+        - Meeting link :
+        - Register for future meetings:
   - type: textarea
     id: attendees
     attributes:
@@ -48,7 +52,7 @@ body:
     attributes:
       label: Agenda
       description: Meeting agenda items
-      placeholder: |
+      value: |
         - [ ] Convene & roll call (5mins)
         - [ ] Display [FINOS Antitrust Policy summary slide](https://community.finos.org/Compliance-Slides/Antitrust-Compliance-Slide.pdf)
         - [ ] Review Meeting Notices (see above)
@@ -64,7 +68,7 @@ body:
     attributes:
       label: Decisions Made
       description: List any decisions made during the meeting
-      placeholder: |
+      value: |
         - [ ] Decision 1
         - [ ] Decision 2
         - [ ] ...
@@ -73,7 +77,7 @@ body:
     attributes:
       label: Action Items
       description: List action items from the meeting
-      placeholder: |
+      value: |
         - [ ] Action 1
         - [ ] Action 2
         - [ ] ...
