@@ -21,7 +21,6 @@ body:
       label: Meeting Details
       description: Meeting link and registration information
       value: |
-        ## Meeting Details
         - Meeting link:
         - Register for future meetings:
   - type: textarea
@@ -30,8 +29,6 @@ body:
       label: Meeting Notices
       description: These notices will be included in the issue body
       value: |
-        ## Meeting Notices
-        
         - FINOS **Project leads** are responsible for observing the FINOS guidelines for [running project meetings](https://community.finos.org/docs/governance/meeting-procedures/). Project maintainers can find additional resources in the [FINOS Maintainers Cheatsheet](https://community.finos.org/docs/finos-maintainers-cheatsheet).
         
         - **All participants** in FINOS project meetings are subject to the [LF Antitrust Policy](https://www.linuxfoundation.org/antitrust-policy/), the [FINOS Community Code of Conduct](https://community.finos.org/docs/governance/code-of-conduct) and all other [FINOS policies](https://community.finos.org/docs/governance/#policies).
