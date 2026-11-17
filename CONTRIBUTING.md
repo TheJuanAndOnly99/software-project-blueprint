@@ -188,6 +188,7 @@ All TSC votes **MUST** be carried out transparently, with all discussion and vot
 * Comments associated with the relevant issue or pull request, if applicable
 * The project mailing list or another official public communication channel
 * A regular, minuted project meeting
+* [LFX Self Serve Votes](https://app.lfx.dev/docs/votes) (optional, recommended; email [help@finos.org](mailto:help@finos.org) for access)
 
 If a vote cannot be resolved by the TSC, any voting member of the TSC **MAY** refer the matter to the Series Manager for assistance in reaching a resolution, as described in the Technical Charter.
 
